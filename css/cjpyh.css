@@ -75,7 +75,11 @@ body {
 .item-tiles li{
 	margin-bottom: 26px;
 }
-
+.tile {
+  border: 2px dashed #FF83C5;
+  text-align: left;
+  line-height: 16px;
+}
 .tile .item-image {
 	height: 190px;
 	margin-top: 0px;

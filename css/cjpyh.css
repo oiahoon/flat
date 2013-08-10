@@ -47,6 +47,7 @@ body {
 }
 .navbar-inverse .nav > li > a {
   font-family: "微软雅黑";
+  font-size: 32px;
   border-bottom: 0px ;
   border-left: 0px;
   color: #eee;

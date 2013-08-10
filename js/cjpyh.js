@@ -24,6 +24,7 @@
 
     // fix sub nav on scroll
     var $win = $(window)
+      , $topnav = $('.top-nav')
       , $nav = $('.subnav')
       , navTop = $('.subnav').length && $('.subnav').offset().top - 20
       , isFixed = 0
@@ -37,9 +38,11 @@
       if (scrollTop >= navTop && !isFixed) {
         isFixed = 1
         $nav.addClass('subnav-fixed')
+        // $topnav.removeClass('navbar-fixed-top')
       } else if (scrollTop <= navTop && isFixed) {
         isFixed = 0
         $nav.removeClass('subnav-fixed')
+        // $topnav.addClass('navbar-fixed-top')
       }
     }
 })(jQuery);

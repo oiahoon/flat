@@ -46,6 +46,7 @@ body {
   background-color: #C0392B;
 }
 .navbar-inverse .nav > li > a {
+  font-family: "微软雅黑";
   border-bottom: 0px ;
   border-left: 0px;
   color: #eee;
@@ -54,6 +55,7 @@ body {
   -moz-transition: all .2s linear;
   transition: all .2s linear;
 }
+
 .navbar-inverse .nav > li > a:hover, 
 .navbar-inverse .nav > li.active > a, 
 .navbar-inverse .nav > li.active > a:hover{
@@ -80,7 +82,7 @@ body {
 .subnav {
   width: 100%;
   height: 36px;
-  background-color: #2980B9;
+  background-color: #A8A8A8;
   /*border: 1px solid hsl(0, 0%, 90%);*/
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -92,21 +94,36 @@ body {
   left: 0;
   right: 0;
   z-index: 1020;
-  
   border-radius: 0;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.42);
 }
 .subnav ul {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+.subnav ul>li {
+  margin-left: 10px;
+}
 .subnav a {
   color: #fff;
   font-weight: bolder;
   text-decoration: none;
 }
-.subnav a:hover {
-  color: #3498DB;
+.subnav > .nav > .disabled>a {
+  color: #6d6d6d;
+}
+.subnav > .nav > .disabled>a:hover, 
+.subnav > .nav > .disabled>a:focus {
+  color: #6d6d6d;
+  text-decoration: none;
+  cursor: default;
+  background-color: transparent;
+}
+.nav a:hover {
+  color: #A8A8A8;
 }
 
 .item-tiles {
@@ -132,16 +149,69 @@ body {
 	margin-bottom: 5px;
 	width: 290px;
 }
+.btn.btn-large {
+  font-size: 14.996px;
+  line-height: 31px;
+  padding: 5px 1px 5px;
+}
+.tile a {
+  height: 43px;
+  max-height: 43px;
+  width: 291px;
+  max-width: 291px;
+}
+.tile h5, .tile span {
+  font-family: "微软雅黑";
+}
 .tile p {
 	font-size: 14px;
 	margin-bottom: 4px;
   max-height: 32px;
   height: 32px;
+  overflow: hidden;
 }
 .tile h5 {
 	color: #fff;
 	font-size: 14px;
 	font-weight: 700;
+}
+.tile span {
+  font-size: 29px;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 0;
+}
+.tile span.price {
+  font-size: 26px
+}
+.tile del {
+  font: bold 16px/12px "微软雅黑";
+  color: #2C3E50;
+}
+.tile b {
+   font-size: 18px;
+   font-style: normal;
+   font-family: cursive;
+}
+.tile.tile-taobao:before {
+  background: url(../images/tile/taobao.png) 0 0 no-repeat;
+  background-size: 82px 82px;
+  content: '';
+  height: 82px;
+  position: absolute;
+  right: -4px;
+  top: -4px;
+  width: 82px;
+}
+.tile.tile-tmall:before {
+  background: url(../images/tile/tmall.png) 0 0 no-repeat;
+  background-size: 82px 82px;
+  content: '';
+  height: 82px;
+  position: absolute;
+  right: -4px;
+  top: -4px;
+  width: 82px;
 }
 .item-detail {
 	display: none;

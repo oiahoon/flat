@@ -4,10 +4,10 @@ body {
   background-position: 0 40px;
 }
 ::selection {
-  color: #fff;background-color: #E74C3C;
+  color: #fff;background-color: hsl(346, 100%, 56%);
 }   
 ::-moz-selection {
-  color: #fff;background-color: #E74C3C;
+  color: #fff;background-color: hsl(346, 100%, 56%);
 }  
 .span-item {
   width: 313px;
@@ -28,7 +28,7 @@ body {
   margin-left: 20px;
   float: right;
   font-weight: bolder;
-  color: #eee;
+  color: #fff;
   text-shadow: 0 1px 0px hsla(0, 0%, 0%, 1), 0 0 30px hsla(0, 0%, 0%, 1);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -39,7 +39,7 @@ body {
   text-shadow: 0 1px 5px hsla(0, 0%, 0%, 1), 0 0 30px hsla(0, 0%, 0%, 1);
 }
 .navbar-inverse .navbar-logo {
-  background-color: #E74C3C;
+  background-color: hsl(346, 100%, 56%);
 }
 
 .navbar .nav ul li{
@@ -56,7 +56,7 @@ body {
   font-size: 32px;
   border-bottom: 0px ;
   border-left: 0px;
-  color: #eee;
+  color: #fff;
   text-shadow: 0 1px 0 hsla(0, 100%, 100%, 0.1), 0 0 30px hsla(0, 100%, 100%, 0.125);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -66,8 +66,8 @@ body {
 .navbar-inverse .nav > li > a:hover, 
 .navbar-inverse .nav > li.active > a, 
 .navbar-inverse .nav > li.active > a:hover{
-  color: #fff;
-  background-color: #C0392B;
+  color: #eee;
+  background-color: hsl(341, 100%, 36%);
 }
 
 /* 用于navbar 根据滚动条特效 */
@@ -192,7 +192,7 @@ body {
   font-size: 26px
 }
 .tile del {
-  font: bold 16px/12px "微软雅黑";
+  font: bold 14px/12px "微软雅黑";
   color: #2C3E50;
 }
 .tile b {
@@ -209,6 +209,7 @@ body {
   right: -4px;
   top: -4px;
   width: 82px;
+  z-index: 900;
 }
 .tile.tile-tmall:before {
   background: url(../images/tile/tmall.png) 0 0 no-repeat;
@@ -219,6 +220,7 @@ body {
   right: -4px;
   top: -4px;
   width: 82px;
+  z-index: 900;
 }
 .item-detail {
 	display: none;

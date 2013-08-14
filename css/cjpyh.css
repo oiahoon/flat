@@ -4,10 +4,10 @@ body {
   background-position: 0 40px;
 }
 ::selection {
-  color: #fff;background-color: #C0392B;
+  color: #fff;background-color: #FF206D;
 }   
 ::-moz-selection {
-  color: #fff;background-color: #C0392B;
+  color: #fff;background-color: #FF206D;
 }  
 .span-item {
   width: 313px;
@@ -68,7 +68,7 @@ body {
 .navbar-inverse .nav > li.active > a, 
 .navbar-inverse .nav > li.active > a:hover{
   color: #eee;
-  background-color: hsl(341, 100%, 36%);
+  background-color: #FF206D;
 }
 
 /* 用于navbar 根据滚动条特效 */

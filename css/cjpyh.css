@@ -4,10 +4,10 @@ body {
   background-position: 0 40px;
 }
 ::selection {
-  color: #fff;background-color: hsl(346, 100%, 56%);
+  color: #fff;background-color: #C0392B;
 }   
 ::-moz-selection {
-  color: #fff;background-color: hsl(346, 100%, 56%);
+  color: #fff;background-color: #C0392B;
 }  
 .span-item {
   width: 313px;
@@ -34,12 +34,13 @@ body {
   -moz-transition: all .2s linear;
   transition: all .2s linear;
 }
+
 .navbar-fixed-top .brand:hover{
   color: #fff;
   text-shadow: 0 1px 5px hsla(0, 0%, 0%, 1), 0 0 30px hsla(0, 0%, 0%, 1);
 }
 .navbar-inverse .navbar-logo {
-  background-color: hsl(346, 100%, 56%);
+  background-color: #313131;
 }
 
 .navbar .nav ul li{

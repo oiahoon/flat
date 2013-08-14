@@ -53,6 +53,7 @@ body {
   background-color: #C0392B;
 }
 .navbar-inverse .nav > li > a {
+  display: block;
   font-family: "微软雅黑";
   font-size: 32px;
   border-bottom: 0px ;

@@ -153,6 +153,7 @@ body {
   border: 2px dashed #ff0523;
 }
 .tile .item-image {
+  z-index: 100;
 	height: 190px;
 	margin-top: 0px;
 	margin-bottom: 5px;

@@ -211,7 +211,7 @@ body {
   right: -4px;
   top: -4px;
   width: 82px;
-  z-index: 900;
+  z-index: 1001;
 }
 .tile.tile-tmall:before {
   background: url(../images/tile/tmall.png) 0 0 no-repeat;
@@ -222,7 +222,7 @@ body {
   right: -4px;
   top: -4px;
   width: 82px;
-  z-index: 900;
+  z-index: 1001;
 }
 .item-detail {
 	display: none;

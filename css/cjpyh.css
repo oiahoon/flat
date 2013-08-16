@@ -152,6 +152,7 @@ body {
 	margin-bottom: 46px;
 	margin-top: 20px;
 	list-style-type: none;
+  z-index: 500;
 }
 .item-tiles li{
 	margin-bottom: 26px;

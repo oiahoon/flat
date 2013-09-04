@@ -105,6 +105,32 @@ width: 980px;
   height: 100%;
 }
 
+.sidebar {
+  width: 44px;
+}
+.sidebar ul {
+  position: fixed;
+  float: left;
+  top: 200px;
+  margin-left: -50px;
+  list-style-type: none;
+  background-color: #FF3C78;
+}
+.sidebar ul li {
+  line-height: 52px;
+  border-bottom: 1px solid #FFF;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  background-color: #FF3C78;
+  display: block;
+}
+.sidebar ul li a:hover {
+  background-color: #FF5B8E;
+}
+
 .span-item {
   float: left;
   min-height: 1px;

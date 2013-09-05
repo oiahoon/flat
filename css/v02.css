@@ -7,6 +7,9 @@ body {
   margin: 0;
   background-image: url(../images/main-bg.gif);
 }
+i {
+  font-style: normal;
+}
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
@@ -30,7 +33,11 @@ body {
 }
 .items-container {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 1080px;
+  max-width: 1180px;
 }
 ::selection {
   color: #fff;background-color: #DF596F;
@@ -86,7 +93,8 @@ body {
 }
 .toolbar .nav ul a:hover {
   background-color: #E0E0E0;
-  color: #2B2B2B;
+  color: #484848;
+  margin-left: 3px;
 }
 .toolbar .nav {
   height: 50px;
@@ -114,6 +122,12 @@ body {
   background-position: 0 40px;
   float: left;
   margin: 5px 20px;
+}
+.menus {
+  margin-left: 30px;
+}
+.menus .nav > li > a {
+  font-size: 1.6em;
 }
 .header {
   background-color: rgba(255, 255, 255, 0.92);
@@ -183,19 +197,14 @@ body {
   background-color: #FF5B8E;
   padding-right: 5px;
 }
-.items-container {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  max-width: 1050px;
-}
+
 .items-container div {
   background-color: #F1E7BC;
 }
 .span-item {
   float: left;
   min-height: 1px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-left: 20px;
   width: 330px;
   height: 296px;
@@ -208,9 +217,6 @@ body {
   border: 1px solid #E2E2E2;
   border-color: #FFF #E2E2E2 #E2E2E2 #FFF;
 }
-
-
-
 
 .footer-banner {
   background-color: #FF4361;

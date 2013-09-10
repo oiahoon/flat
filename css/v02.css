@@ -169,8 +169,11 @@ i {
   height: 100%;
 }
 
+.span-sidebar {
+  width: 69px;
+}
 .sidebar {
-  width: 44px;
+  width: 69px;
 }
 .sidebar ul {
   position: fixed;
@@ -182,6 +185,7 @@ i {
   z-index: 888;
 }
 .sidebar ul li {
+  max-height: 53px;
   line-height: 52px;
   border-bottom: 1px solid #FFF;
   text-align: center;
@@ -195,9 +199,10 @@ i {
 }
 .sidebar ul li a:hover {
   background-color: #FF5B8E;
-  padding-right: 5px;
 }
-
+.side-icon {
+  margin-left: -10px; 
+}
 .items-container div {
   background-color: #F1E7BC;
 }
